@@ -127,6 +127,14 @@ pokemoninfinity:
  Category: Games
  Icon: InfinityIcon.ico 
 
+adobedigitaleditions:
+ Arch: win64
+ Name: Adobe Digital Editions
+ Description: Adobe Digital Editions DRM Ebook reader
+ Grade: Unknown
+ Category: Software
+ Icon: adobedigitaleditions.svg
+
 #rockstar:
 #  Arch: win64
 #  Name: Rockstar Launcher

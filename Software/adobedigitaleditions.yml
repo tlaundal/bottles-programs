@@ -1,0 +1,22 @@
+Name: adobedigitaleditions
+Description: Adobe Digital Editions DRM Ebook reader
+Grade: Unknown # TODO
+Arch: win64
+
+Dependencies:
+- dotnet40
+
+Parameters: 
+  dxvk: false
+
+Executable:
+  name: Adobe Digital Editions
+  icon: adobedigitaleditions.svg
+  file: DigitalEditions.exe
+  path: Program Files (x86)/Adobe/Adobe Digital Editions 4.5/
+  
+Steps:
+- action: install_exe
+  file_name: ADE_4.5_Installer.exe
+  url: https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe
+  file_checksum: 1efcd0c92784169fc1eec4e87788f6e8
